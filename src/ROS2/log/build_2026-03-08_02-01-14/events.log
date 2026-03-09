@@ -1,0 +1,304 @@
+[0.000000] (-) TimerEvent: {}
+[0.002083] (-) JobUnselected: {'identifier': 'package_subscriber'}
+[0.002157] (package_publisher) JobQueued: {'identifier': 'package_publisher', 'dependencies': OrderedDict()}
+[0.002189] (package_publisher) JobStarted: {'identifier': 'package_publisher'}
+[0.061673] (package_publisher) JobProgress: {'identifier': 'package_publisher', 'progress': 'cmake'}
+[0.071989] (package_publisher) JobProgress: {'identifier': 'package_publisher', 'progress': 'build'}
+[0.072492] (package_publisher) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/build/package_publisher', '--', '-j4', '-l4'], 'cwd': '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/build/package_publisher', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'lin-jiatao', 'FONTCONFIG_PATH': '/etc/fonts', 'GIO_MODULE_DIR': '/home/lin-jiatao/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/220/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/lin-jiatao', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'OLDPWD': '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao', 'TERM_PROGRAM_VERSION': '1.108.2', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/220/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/lin-jiatao/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/220/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/220/usr/share/code/code', 'MANAGERPID': '2283', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2529', 'BUNDLED_DEBUGPY_PATH': '/home/lin-jiatao/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'a': '/opt/tomcat', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3665', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'lin-jiatao', 'JOURNAL_STREAM': '9:31807', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'lin-jiatao', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/home/lin-jiatao/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/lin-jiatao/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lin-jiatao/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/lin-jiatao-VMware-Virtual-Platform:@/tmp/.ICE-unix/2488,unix/lin-jiatao-VMware-Virtual-Platform:/tmp/.ICE-unix/2488', 'GTK_EXE_PREFIX': '/snap/code/220/usr', 'INVOCATION_ID': 'ca94f43c0f694f158680a9c9f93ef5de', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/220/usr/lib/locale', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/lin-jiatao/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-c0b0273bc1078c70.txt', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/lin-jiatao/.config/Code/User/workspaceStorage/ae4f67d2883737f0be14d74bf69231a0/ms-python.python/pythonrc.py', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/lin-jiatao/snap/code/220/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.SJYFL3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-fd6a256b88.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/lin-jiatao/snap/code/220/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber:/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_publisher:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/build/package_publisher', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/lin-jiatao/snap/code/220/.local/share:/home/lin-jiatao/snap/code/220:/snap/code/220/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber:/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_publisher:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.101331] (-) TimerEvent: {}
+[0.202343] (-) TimerEvent: {}
+[0.303591] (-) TimerEvent: {}
+[0.404713] (-) TimerEvent: {}
+[0.505434] (-) TimerEvent: {}
+[0.570370] (package_publisher) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/Node_publisher.dir/src/Node_publisher.cpp.o\x1b[0m\n'}
+[0.606525] (-) TimerEvent: {}
+[0.707515] (-) TimerEvent: {}
+[0.809443] (-) TimerEvent: {}
+[0.910486] (-) TimerEvent: {}
+[1.011522] (-) TimerEvent: {}
+[1.112610] (-) TimerEvent: {}
+[1.213322] (-) TimerEvent: {}
+[1.315831] (-) TimerEvent: {}
+[1.418610] (-) TimerEvent: {}
+[1.519326] (-) TimerEvent: {}
+[1.620116] (-) TimerEvent: {}
+[1.722375] (-) TimerEvent: {}
+[1.823469] (-) TimerEvent: {}
+[1.926319] (-) TimerEvent: {}
+[2.027216] (-) TimerEvent: {}
+[2.129031] (-) TimerEvent: {}
+[2.236570] (-) TimerEvent: {}
+[2.340866] (-) TimerEvent: {}
+[2.444619] (-) TimerEvent: {}
+[2.545666] (-) TimerEvent: {}
+[2.647865] (-) TimerEvent: {}
+[2.750706] (-) TimerEvent: {}
+[2.852162] (-) TimerEvent: {}
+[2.954898] (-) TimerEvent: {}
+[3.062600] (-) TimerEvent: {}
+[3.165538] (-) TimerEvent: {}
+[3.269663] (-) TimerEvent: {}
+[3.372565] (-) TimerEvent: {}
+[3.473468] (-) TimerEvent: {}
+[3.575631] (-) TimerEvent: {}
+[3.687490] (-) TimerEvent: {}
+[3.788386] (-) TimerEvent: {}
+[3.890121] (-) TimerEvent: {}
+[3.994249] (-) TimerEvent: {}
+[4.095880] (-) TimerEvent: {}
+[4.197290] (-) TimerEvent: {}
+[4.301334] (-) TimerEvent: {}
+[4.405846] (-) TimerEvent: {}
+[4.517528] (-) TimerEvent: {}
+[4.630659] (-) TimerEvent: {}
+[4.731717] (-) TimerEvent: {}
+[4.832678] (-) TimerEvent: {}
+[4.934375] (-) TimerEvent: {}
+[5.048771] (-) TimerEvent: {}
+[5.165595] (-) TimerEvent: {}
+[5.271205] (-) TimerEvent: {}
+[5.386540] (-) TimerEvent: {}
+[5.502532] (-) TimerEvent: {}
+[5.624763] (-) TimerEvent: {}
+[5.728823] (-) TimerEvent: {}
+[5.836087] (-) TimerEvent: {}
+[5.938409] (-) TimerEvent: {}
+[6.039328] (-) TimerEvent: {}
+[6.140917] (-) TimerEvent: {}
+[6.249071] (-) TimerEvent: {}
+[6.354357] (-) TimerEvent: {}
+[6.455814] (-) TimerEvent: {}
+[6.557465] (-) TimerEvent: {}
+[6.660401] (-) TimerEvent: {}
+[6.762209] (-) TimerEvent: {}
+[6.863513] (-) TimerEvent: {}
+[6.970444] (-) TimerEvent: {}
+[7.071393] (-) TimerEvent: {}
+[7.183902] (-) TimerEvent: {}
+[7.287407] (-) TimerEvent: {}
+[7.388761] (-) TimerEvent: {}
+[7.494852] (-) TimerEvent: {}
+[7.601766] (-) TimerEvent: {}
+[7.712429] (-) TimerEvent: {}
+[7.815627] (-) TimerEvent: {}
+[7.916750] (-) TimerEvent: {}
+[8.019724] (-) TimerEvent: {}
+[8.127927] (-) TimerEvent: {}
+[8.235402] (-) TimerEvent: {}
+[8.339257] (-) TimerEvent: {}
+[8.443746] (-) TimerEvent: {}
+[8.546746] (-) TimerEvent: {}
+[8.647805] (-) TimerEvent: {}
+[8.750158] (-) TimerEvent: {}
+[8.851146] (-) TimerEvent: {}
+[8.952512] (-) TimerEvent: {}
+[9.054437] (-) TimerEvent: {}
+[9.155510] (-) TimerEvent: {}
+[9.256356] (-) TimerEvent: {}
+[9.357821] (-) TimerEvent: {}
+[9.459317] (-) TimerEvent: {}
+[9.560260] (-) TimerEvent: {}
+[9.661256] (-) TimerEvent: {}
+[9.762254] (-) TimerEvent: {}
+[9.863159] (-) TimerEvent: {}
+[9.964170] (-) TimerEvent: {}
+[10.065090] (-) TimerEvent: {}
+[10.165961] (-) TimerEvent: {}
+[10.266694] (-) TimerEvent: {}
+[10.367555] (-) TimerEvent: {}
+[10.468282] (-) TimerEvent: {}
+[10.569457] (-) TimerEvent: {}
+[10.670356] (-) TimerEvent: {}
+[10.771057] (-) TimerEvent: {}
+[10.871865] (-) TimerEvent: {}
+[10.972821] (-) TimerEvent: {}
+[11.074238] (-) TimerEvent: {}
+[11.175809] (-) TimerEvent: {}
+[11.276552] (-) TimerEvent: {}
+[11.377727] (-) TimerEvent: {}
+[11.478478] (-) TimerEvent: {}
+[11.579421] (-) TimerEvent: {}
+[11.680347] (-) TimerEvent: {}
+[11.781092] (-) TimerEvent: {}
+[11.881822] (-) TimerEvent: {}
+[11.982741] (-) TimerEvent: {}
+[12.083454] (-) TimerEvent: {}
+[12.184443] (-) TimerEvent: {}
+[12.285928] (-) TimerEvent: {}
+[12.387089] (-) TimerEvent: {}
+[12.487899] (-) TimerEvent: {}
+[12.589406] (-) TimerEvent: {}
+[12.690456] (-) TimerEvent: {}
+[12.791087] (-) TimerEvent: {}
+[12.893590] (-) TimerEvent: {}
+[12.994521] (-) TimerEvent: {}
+[13.095576] (-) TimerEvent: {}
+[13.196673] (-) TimerEvent: {}
+[13.297582] (-) TimerEvent: {}
+[13.398712] (-) TimerEvent: {}
+[13.499758] (-) TimerEvent: {}
+[13.601498] (-) TimerEvent: {}
+[13.702692] (-) TimerEvent: {}
+[13.803837] (-) TimerEvent: {}
+[13.904903] (-) TimerEvent: {}
+[14.006211] (-) TimerEvent: {}
+[14.107122] (-) TimerEvent: {}
+[14.208029] (-) TimerEvent: {}
+[14.309019] (-) TimerEvent: {}
+[14.410447] (-) TimerEvent: {}
+[14.511566] (-) TimerEvent: {}
+[14.612880] (-) TimerEvent: {}
+[14.714037] (-) TimerEvent: {}
+[14.814909] (-) TimerEvent: {}
+[14.915802] (-) TimerEvent: {}
+[15.016681] (-) TimerEvent: {}
+[15.117325] (-) TimerEvent: {}
+[15.218703] (-) TimerEvent: {}
+[15.320928] (-) TimerEvent: {}
+[15.421839] (-) TimerEvent: {}
+[15.522553] (-) TimerEvent: {}
+[15.623583] (-) TimerEvent: {}
+[15.724745] (-) TimerEvent: {}
+[15.827158] (-) TimerEvent: {}
+[15.929516] (-) TimerEvent: {}
+[16.033446] (-) TimerEvent: {}
+[16.143680] (-) TimerEvent: {}
+[16.245339] (-) TimerEvent: {}
+[16.347365] (-) TimerEvent: {}
+[16.452946] (-) TimerEvent: {}
+[16.555876] (-) TimerEvent: {}
+[16.663401] (-) TimerEvent: {}
+[16.765967] (-) TimerEvent: {}
+[16.868200] (-) TimerEvent: {}
+[16.971704] (-) TimerEvent: {}
+[17.073803] (-) TimerEvent: {}
+[17.177485] (-) TimerEvent: {}
+[17.282304] (-) TimerEvent: {}
+[17.384771] (-) TimerEvent: {}
+[17.485468] (-) TimerEvent: {}
+[17.586887] (-) TimerEvent: {}
+[17.690513] (-) TimerEvent: {}
+[17.792646] (-) TimerEvent: {}
+[17.895333] (-) TimerEvent: {}
+[17.996371] (-) TimerEvent: {}
+[18.107416] (-) TimerEvent: {}
+[18.211569] (-) TimerEvent: {}
+[18.316847] (-) TimerEvent: {}
+[18.421380] (-) TimerEvent: {}
+[18.523928] (-) TimerEvent: {}
+[18.636382] (-) TimerEvent: {}
+[18.738363] (-) TimerEvent: {}
+[18.839349] (-) TimerEvent: {}
+[18.944718] (-) TimerEvent: {}
+[19.046795] (-) TimerEvent: {}
+[19.148015] (-) TimerEvent: {}
+[19.255885] (-) TimerEvent: {}
+[19.357517] (-) TimerEvent: {}
+[19.462736] (-) TimerEvent: {}
+[19.566641] (-) TimerEvent: {}
+[19.668379] (-) TimerEvent: {}
+[19.769876] (-) TimerEvent: {}
+[19.874690] (-) TimerEvent: {}
+[19.982194] (-) TimerEvent: {}
+[20.093041] (-) TimerEvent: {}
+[20.200209] (-) TimerEvent: {}
+[20.301586] (-) TimerEvent: {}
+[20.403086] (-) TimerEvent: {}
+[20.510449] (-) TimerEvent: {}
+[20.613916] (-) TimerEvent: {}
+[20.716636] (-) TimerEvent: {}
+[20.817356] (-) TimerEvent: {}
+[20.919861] (-) TimerEvent: {}
+[21.022181] (-) TimerEvent: {}
+[21.124122] (-) TimerEvent: {}
+[21.230968] (-) TimerEvent: {}
+[21.333369] (-) TimerEvent: {}
+[21.476554] (-) TimerEvent: {}
+[21.578724] (-) TimerEvent: {}
+[21.684443] (-) TimerEvent: {}
+[21.785301] (-) TimerEvent: {}
+[21.890056] (-) TimerEvent: {}
+[21.992208] (-) TimerEvent: {}
+[22.093817] (-) TimerEvent: {}
+[22.196997] (-) TimerEvent: {}
+[22.299955] (-) TimerEvent: {}
+[22.403540] (-) TimerEvent: {}
+[22.505196] (-) TimerEvent: {}
+[22.605938] (-) TimerEvent: {}
+[22.707317] (-) TimerEvent: {}
+[22.808236] (-) TimerEvent: {}
+[22.908931] (-) TimerEvent: {}
+[23.009484] (-) TimerEvent: {}
+[23.110662] (-) TimerEvent: {}
+[23.212019] (-) TimerEvent: {}
+[23.313195] (-) TimerEvent: {}
+[23.414195] (-) TimerEvent: {}
+[23.515567] (-) TimerEvent: {}
+[23.616640] (-) TimerEvent: {}
+[23.717535] (-) TimerEvent: {}
+[23.819831] (-) TimerEvent: {}
+[23.920677] (-) TimerEvent: {}
+[24.023190] (-) TimerEvent: {}
+[24.124270] (-) TimerEvent: {}
+[24.225393] (-) TimerEvent: {}
+[24.326541] (-) TimerEvent: {}
+[24.427470] (-) TimerEvent: {}
+[24.528417] (-) TimerEvent: {}
+[24.629465] (-) TimerEvent: {}
+[24.730467] (-) TimerEvent: {}
+[24.831973] (-) TimerEvent: {}
+[24.932922] (-) TimerEvent: {}
+[25.034147] (-) TimerEvent: {}
+[25.135449] (-) TimerEvent: {}
+[25.236476] (-) TimerEvent: {}
+[25.337584] (-) TimerEvent: {}
+[25.348082] (package_publisher) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable Node_publisher\x1b[0m\n'}
+[25.438252] (-) TimerEvent: {}
+[25.539277] (-) TimerEvent: {}
+[25.640147] (-) TimerEvent: {}
+[25.740962] (-) TimerEvent: {}
+[25.842517] (-) TimerEvent: {}
+[25.943581] (-) TimerEvent: {}
+[26.044361] (-) TimerEvent: {}
+[26.145090] (-) TimerEvent: {}
+[26.246325] (-) TimerEvent: {}
+[26.347301] (-) TimerEvent: {}
+[26.448106] (-) TimerEvent: {}
+[26.549428] (-) TimerEvent: {}
+[26.653487] (-) TimerEvent: {}
+[26.754729] (-) TimerEvent: {}
+[26.856144] (-) TimerEvent: {}
+[26.960033] (-) TimerEvent: {}
+[27.050607] (package_publisher) StdoutLine: {'line': b'[100%] Built target Node_publisher\n'}
+[27.060701] (-) TimerEvent: {}
+[27.176845] (-) TimerEvent: {}
+[27.226073] (package_publisher) CommandEnded: {'returncode': 0}
+[27.279509] (package_publisher) JobProgress: {'identifier': 'package_publisher', 'progress': 'install'}
+[27.279640] (-) TimerEvent: {}
+[27.334084] (package_publisher) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/build/package_publisher'], 'cwd': '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/build/package_publisher', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'lin-jiatao', 'FONTCONFIG_PATH': '/etc/fonts', 'GIO_MODULE_DIR': '/home/lin-jiatao/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/220/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/lin-jiatao', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'OLDPWD': '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao', 'TERM_PROGRAM_VERSION': '1.108.2', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/220/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/lin-jiatao/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/220/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/220/usr/share/code/code', 'MANAGERPID': '2283', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2529', 'BUNDLED_DEBUGPY_PATH': '/home/lin-jiatao/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'a': '/opt/tomcat', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3665', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'lin-jiatao', 'JOURNAL_STREAM': '9:31807', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'lin-jiatao', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/home/lin-jiatao/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/lin-jiatao/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lin-jiatao/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/lin-jiatao-VMware-Virtual-Platform:@/tmp/.ICE-unix/2488,unix/lin-jiatao-VMware-Virtual-Platform:/tmp/.ICE-unix/2488', 'GTK_EXE_PREFIX': '/snap/code/220/usr', 'INVOCATION_ID': 'ca94f43c0f694f158680a9c9f93ef5de', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/220/usr/lib/locale', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/lin-jiatao/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-c0b0273bc1078c70.txt', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/lin-jiatao/.config/Code/User/workspaceStorage/ae4f67d2883737f0be14d74bf69231a0/ms-python.python/pythonrc.py', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/lin-jiatao/snap/code/220/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.SJYFL3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-fd6a256b88.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/lin-jiatao/snap/code/220/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber:/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_publisher:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/build/package_publisher', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/lin-jiatao/snap/code/220/.local/share:/home/lin-jiatao/snap/code/220:/snap/code/220/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber:/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_publisher:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[27.370923] (package_publisher) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[27.375233] (package_publisher) StdoutLine: {'line': b'-- Installing: /home/lin-jiatao/\xe6\xa1\x8c\xe9\x9d\xa2/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_publisher/lib/package_publisher/Node_publisher\n'}
+[27.380446] (-) TimerEvent: {}
+[27.388436] (package_publisher) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/lin-jiatao/\xe6\xa1\x8c\xe9\x9d\xa2/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_publisher/lib/package_publisher/Node_publisher" to ""\n'}
+[27.388772] (package_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/lin-jiatao/\xe6\xa1\x8c\xe9\x9d\xa2/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_publisher/share/package_publisher/image\n'}
+[27.388896] (package_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/lin-jiatao/\xe6\xa1\x8c\xe9\x9d\xa2/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_publisher/share/package_publisher/image/image.png\n'}
+[27.391420] (package_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/lin-jiatao/\xe6\xa1\x8c\xe9\x9d\xa2/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_publisher/share/ament_index/resource_index/package_run_dependencies/package_publisher\n'}
+[27.394648] (package_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/lin-jiatao/\xe6\xa1\x8c\xe9\x9d\xa2/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_publisher/share/ament_index/resource_index/parent_prefix_path/package_publisher\n'}
+[27.395092] (package_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/lin-jiatao/\xe6\xa1\x8c\xe9\x9d\xa2/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_publisher/share/package_publisher/environment/ament_prefix_path.sh\n'}
+[27.395413] (package_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/lin-jiatao/\xe6\xa1\x8c\xe9\x9d\xa2/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_publisher/share/package_publisher/environment/ament_prefix_path.dsv\n'}
+[27.395733] (package_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/lin-jiatao/\xe6\xa1\x8c\xe9\x9d\xa2/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_publisher/share/package_publisher/environment/path.sh\n'}
+[27.395842] (package_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/lin-jiatao/\xe6\xa1\x8c\xe9\x9d\xa2/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_publisher/share/package_publisher/environment/path.dsv\n'}
+[27.396120] (package_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/lin-jiatao/\xe6\xa1\x8c\xe9\x9d\xa2/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_publisher/share/package_publisher/local_setup.bash\n'}
+[27.399735] (package_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/lin-jiatao/\xe6\xa1\x8c\xe9\x9d\xa2/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_publisher/share/package_publisher/local_setup.sh\n'}
+[27.399876] (package_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/lin-jiatao/\xe6\xa1\x8c\xe9\x9d\xa2/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_publisher/share/package_publisher/local_setup.zsh\n'}
+[27.400408] (package_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/lin-jiatao/\xe6\xa1\x8c\xe9\x9d\xa2/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_publisher/share/package_publisher/local_setup.dsv\n'}
+[27.400600] (package_publisher) StdoutLine: {'line': b'-- Installing: /home/lin-jiatao/\xe6\xa1\x8c\xe9\x9d\xa2/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_publisher/share/package_publisher/package.dsv\n'}
+[27.400737] (package_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/lin-jiatao/\xe6\xa1\x8c\xe9\x9d\xa2/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_publisher/share/ament_index/resource_index/packages/package_publisher\n'}
+[27.400838] (package_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/lin-jiatao/\xe6\xa1\x8c\xe9\x9d\xa2/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_publisher/share/package_publisher/cmake/package_publisherConfig.cmake\n'}
+[27.400924] (package_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/lin-jiatao/\xe6\xa1\x8c\xe9\x9d\xa2/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_publisher/share/package_publisher/cmake/package_publisherConfig-version.cmake\n'}
+[27.401005] (package_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/lin-jiatao/\xe6\xa1\x8c\xe9\x9d\xa2/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_publisher/share/package_publisher/package.xml\n'}
+[27.410921] (package_publisher) CommandEnded: {'returncode': 0}
+[27.488215] (-) TimerEvent: {}
+[27.580531] (package_publisher) JobEnded: {'identifier': 'package_publisher', 'rc': 0}
+[27.612435] (-) TimerEvent: {}
+[27.613676] (-) EventReactorShutdown: {}

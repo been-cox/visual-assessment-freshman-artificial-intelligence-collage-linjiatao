@@ -1,0 +1,139 @@
+[0.315s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'package_subscriber']
+[0.316s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['package_subscriber'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x709ab0c22e70>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x709ab0df2e70>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x709ab0df2e70>>)
+[0.497s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.498s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.498s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.498s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.498s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.498s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.498s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(package_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(package_publisher) by extension 'ignore'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(package_publisher) by extension 'ignore_ament_install'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(package_publisher) by extensions ['colcon_pkg']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(package_publisher) by extension 'colcon_pkg'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(package_publisher) by extensions ['colcon_meta']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(package_publisher) by extension 'colcon_meta'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(package_publisher) by extensions ['ros']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(package_publisher) by extension 'ros'
+[0.579s] DEBUG:colcon.colcon_core.package_identification:Package 'package_publisher' with type 'ros.ament_cmake' and name 'package_publisher'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(package_subscriber) by extensions ['ignore', 'ignore_ament_install']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(package_subscriber) by extension 'ignore'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(package_subscriber) by extension 'ignore_ament_install'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(package_subscriber) by extensions ['colcon_pkg']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(package_subscriber) by extension 'colcon_pkg'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(package_subscriber) by extensions ['colcon_meta']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(package_subscriber) by extension 'colcon_meta'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(package_subscriber) by extensions ['ros']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(package_subscriber) by extension 'ros'
+[0.583s] DEBUG:colcon.colcon_core.package_identification:Package 'package_subscriber' with type 'ros.ament_cmake' and name 'package_subscriber'
+[0.583s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.583s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.583s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.583s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.583s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.637s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'package_publisher' in 'package_publisher'
+[0.638s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.638s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.650s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 287 installed packages in /opt/ros/jazzy
+[0.652s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.796s] Level 5:colcon.colcon_core.verb:set package 'package_subscriber' build argument 'cmake_args' from command line to 'None'
+[0.796s] Level 5:colcon.colcon_core.verb:set package 'package_subscriber' build argument 'cmake_target' from command line to 'None'
+[0.796s] Level 5:colcon.colcon_core.verb:set package 'package_subscriber' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.796s] Level 5:colcon.colcon_core.verb:set package 'package_subscriber' build argument 'cmake_clean_cache' from command line to 'False'
+[0.796s] Level 5:colcon.colcon_core.verb:set package 'package_subscriber' build argument 'cmake_clean_first' from command line to 'False'
+[0.796s] Level 5:colcon.colcon_core.verb:set package 'package_subscriber' build argument 'cmake_force_configure' from command line to 'False'
+[0.796s] Level 5:colcon.colcon_core.verb:set package 'package_subscriber' build argument 'ament_cmake_args' from command line to 'None'
+[0.796s] Level 5:colcon.colcon_core.verb:set package 'package_subscriber' build argument 'catkin_cmake_args' from command line to 'None'
+[0.796s] Level 5:colcon.colcon_core.verb:set package 'package_subscriber' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.796s] DEBUG:colcon.colcon_core.verb:Building package 'package_subscriber' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/build/package_subscriber', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber', 'merge_install': False, 'path': '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/package_subscriber', 'symlink_install': False, 'test_result_base': None}
+[0.797s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.800s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.801s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/package_subscriber' with build type 'ament_cmake'
+[0.801s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/package_subscriber'
+[0.812s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.813s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.813s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.850s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/build/package_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/package_subscriber -DCMAKE_INSTALL_PREFIX=/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber
+[6.789s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/build/package_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/package_subscriber -DCMAKE_INSTALL_PREFIX=/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber
+[6.798s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/build/package_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/build/package_subscriber -- -j4 -l4
+[34.538s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/build/package_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/build/package_subscriber -- -j4 -l4
+[34.566s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/build/package_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/build/package_subscriber
+[34.632s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(package_subscriber)
+[34.634s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/build/package_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/build/package_subscriber
+[34.648s] Level 1:colcon.colcon_core.environment:checking '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber' for CMake module files
+[34.649s] Level 1:colcon.colcon_core.environment:checking '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber' for CMake config files
+[34.650s] Level 1:colcon.colcon_core.shell:create_environment_hook('package_subscriber', 'cmake_prefix_path')
+[34.651s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber/share/package_subscriber/hook/cmake_prefix_path.ps1'
+[34.654s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber/share/package_subscriber/hook/cmake_prefix_path.dsv'
+[34.657s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber/share/package_subscriber/hook/cmake_prefix_path.sh'
+[34.659s] Level 1:colcon.colcon_core.environment:checking '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber/lib'
+[34.659s] Level 1:colcon.colcon_core.environment:checking '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber/bin'
+[34.662s] Level 1:colcon.colcon_core.environment:checking '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber/lib/pkgconfig/package_subscriber.pc'
+[34.663s] Level 1:colcon.colcon_core.environment:checking '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber/lib/python3.12/site-packages'
+[34.664s] Level 1:colcon.colcon_core.environment:checking '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber/bin'
+[34.665s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber/share/package_subscriber/package.ps1'
+[34.667s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber/share/package_subscriber/package.dsv'
+[34.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber/share/package_subscriber/package.sh'
+[34.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber/share/package_subscriber/package.bash'
+[34.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber/share/package_subscriber/package.zsh'
+[34.680s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber/share/colcon-core/packages/package_subscriber)
+[34.682s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(package_subscriber)
+[34.682s] Level 1:colcon.colcon_core.environment:checking '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber' for CMake module files
+[34.685s] Level 1:colcon.colcon_core.environment:checking '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber' for CMake config files
+[34.685s] Level 1:colcon.colcon_core.shell:create_environment_hook('package_subscriber', 'cmake_prefix_path')
+[34.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber/share/package_subscriber/hook/cmake_prefix_path.ps1'
+[34.687s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber/share/package_subscriber/hook/cmake_prefix_path.dsv'
+[34.689s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber/share/package_subscriber/hook/cmake_prefix_path.sh'
+[34.690s] Level 1:colcon.colcon_core.environment:checking '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber/lib'
+[34.690s] Level 1:colcon.colcon_core.environment:checking '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber/bin'
+[34.691s] Level 1:colcon.colcon_core.environment:checking '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber/lib/pkgconfig/package_subscriber.pc'
+[34.691s] Level 1:colcon.colcon_core.environment:checking '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber/lib/python3.12/site-packages'
+[34.692s] Level 1:colcon.colcon_core.environment:checking '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber/bin'
+[34.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber/share/package_subscriber/package.ps1'
+[34.694s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber/share/package_subscriber/package.dsv'
+[34.695s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber/share/package_subscriber/package.sh'
+[34.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber/share/package_subscriber/package.bash'
+[34.698s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber/share/package_subscriber/package.zsh'
+[34.699s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber/share/colcon-core/packages/package_subscriber)
+[34.700s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[34.700s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[34.700s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[34.700s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[34.722s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[34.722s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[34.722s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[34.777s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[34.778s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/local_setup.ps1'
+[34.780s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/_local_setup_util_ps1.py'
+[34.783s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/setup.ps1'
+[34.785s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/local_setup.sh'
+[34.788s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/_local_setup_util_sh.py'
+[34.789s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/setup.sh'
+[34.793s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/local_setup.bash'
+[34.796s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/setup.bash'
+[34.799s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/local_setup.zsh'
+[34.802s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/setup.zsh'
