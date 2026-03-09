@@ -1,0 +1,16 @@
+/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber/lib/package_subscriber/Node_subscriber
+/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber/share/ament_index/resource_index/package_run_dependencies/package_subscriber
+/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber/share/ament_index/resource_index/parent_prefix_path/package_subscriber
+/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber/share/package_subscriber/environment/ament_prefix_path.sh
+/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber/share/package_subscriber/environment/ament_prefix_path.dsv
+/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber/share/package_subscriber/environment/path.sh
+/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber/share/package_subscriber/environment/path.dsv
+/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber/share/package_subscriber/local_setup.bash
+/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber/share/package_subscriber/local_setup.sh
+/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber/share/package_subscriber/local_setup.zsh
+/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber/share/package_subscriber/local_setup.dsv
+/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber/share/package_subscriber/package.dsv
+/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber/share/ament_index/resource_index/packages/package_subscriber
+/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber/share/package_subscriber/cmake/package_subscriberConfig.cmake
+/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber/share/package_subscriber/cmake/package_subscriberConfig-version.cmake
+/home/lin-jiatao/桌面/visual-assessment-freshman-artificial-intelligence-collage-linjiatao/src/ROS2/install/package_subscriber/share/package_subscriber/package.xml
