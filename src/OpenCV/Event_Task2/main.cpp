@@ -64,6 +64,7 @@ int main()
 		bool found_R = false;
 		float min_tune_dist = 1e9;
 
+		//遍历轮廓
 		for (size_t i = 0; i < contours.size(); i++)
 		{
 			//轮廓面积

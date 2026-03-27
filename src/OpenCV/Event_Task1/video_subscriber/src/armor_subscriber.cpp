@@ -134,6 +134,7 @@ private:
 					vector<Point2f> armorPoints;
 					Point2f leftPoints[4];
 					Point2f rightPoints[4];
+					
 				    //前面运行发现光晕导致矩形框绘制过大，于是在确定矩形框之前先缩小灯条矩形
 					RotatedRect slimLeft = leftLight.rect;
 					RotatedRect slimRight = rightLight.rect;
