@@ -60,6 +60,6 @@ int main()
 	resizeWindow("apple_image", 1000, 600);
 	imshow("apple_image", image);
 
-	waitKey(0);
+	waitKey(0)
 	return 0;
 }
